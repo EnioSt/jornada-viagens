@@ -20,6 +20,10 @@ header {
   margin-right: 24px;
 }
 
+.menu-hamburger:hover {
+  cursor: pointer;
+}
+
 .div-header {
   padding: 37px 24px 37px 24px;
   display: flex;
