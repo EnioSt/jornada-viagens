@@ -5,13 +5,17 @@ header {
   position: relative;
 }
 
+.logo-desktop {
+  display: none;
+}
+
 .logo {
   display: inline-block;
   width: 68px;
   height: 64px;
 }
 
-.logo img {
+.logo .logo-mobile {
   width: 68px;
   height: 64px;
   margin-left: 24px;
@@ -60,6 +64,7 @@ nav {
   line-height: 25px;
   font-weight: var(--menu-text-weight);
   font-size: 24px;
+  font-family: "Montserrat";
 }
 
 @media screen and (min-width: 768px) {
@@ -85,5 +90,31 @@ nav {
 
   .item {
     margin: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .logo-desktop {
+    display: block;
+    width: 260px;
+    height: 64px;
+    margin: 0;
+  }
+
+  .logo-mobile {
+    display: none;
+  }
+
+  .item a:hover {
+    color: var(--primary-color);
+  }
+
+  .div-header {
+    padding: 38px 120px;
+  }
+
+  .list-links {
+    display: flex;
+    gap: 40px;
   }
 }
