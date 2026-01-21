@@ -58,4 +58,32 @@ nav {
   color: var(--text-secondary-color);
   text-decoration: none;
   line-height: 25px;
+  font-weight: var(--menu-text-weight);
+  font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  label,
+  input {
+    display: none;
+  }
+
+  .div-menu {
+    margin-top: 0;
+    width: 467px;
+  }
+  nav {
+    display: block;
+  }
+
+  .list-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+  }
+
+  .item {
+    margin: 0;
+  }
 }
