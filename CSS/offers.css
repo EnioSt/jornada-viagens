@@ -1,12 +1,22 @@
+.offers-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+
 .card {
   color: var(--text-secondary-color);
   background-color: black;
   width: 312px;
-  height: 288px;
+  /* height: 288px; */
   box-sizing: border-box;
   padding: 24px 16px;
   border-radius: 16px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card header {
