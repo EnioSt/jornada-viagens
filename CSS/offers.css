@@ -19,6 +19,23 @@
   justify-content: space-between;
 }
 
+.card.japao {
+  background: url(../img/offers/Japão.png) no-repeat;
+  background-size: cover;
+}
+.card.san-andreas {
+  background: url(../img/offers/San\ Andreas.png) no-repeat;
+  background-size: cover;
+}
+.card.paraiba {
+  background: url(../img/offers/Paraíba.png) no-repeat;
+  background-size: cover;
+}
+.card.manaus {
+  background: url(../img/offers/Manaus.png) no-repeat;
+  background-size: cover;
+}
+
 .card header {
   display: block;
   background-color: transparent;
