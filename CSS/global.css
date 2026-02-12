@@ -33,7 +33,8 @@ label,
 input,
 select,
 textarea,
-button {
+button,
+footer {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -41,4 +42,49 @@ button {
 
 body {
   font-family: "Montserrat";
+  color: var(--text-primary-color);
+}
+
+.section-title h2 {
+  margin: 0;
+  text-align: center;
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+
+.section-title hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px auto 32px;
+}
+
+.card footer {
+  margin-top: 16px; /* ADICIONAR */
+}
+
+.button {
+  width: 280px;
+  height: 64px;
+  color: var(--text-secondary-color);
+  font-weight: var(--title-weight);
+  font-size: 20px;
+  background-color: var(--secondary-color);
+  border-radius: 16px;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 64px; /* ADICIONAR */
+}
+
+@media screen and (min-width: 768px) {
+  .section-title h2 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .button:hover {
+    background-color: var(--primary-color);
+  }
 }
