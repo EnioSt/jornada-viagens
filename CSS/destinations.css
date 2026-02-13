@@ -1,0 +1,40 @@
+.destinations {
+  display: flex;
+  flex-direction: column;
+  width: 312px;
+  margin: 0 auto;
+}
+
+.section-title.destinations {
+  width: 280px;
+  margin: 0 auto;
+}
+
+.cards-destinations {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.card-destination {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-destination h2 {
+  width: 100%;
+  text-align: start;
+}
+
+.card-destination p {
+  line-height: 32px;
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+
+.button.destination {
+  width: 100%;
+  border-radius: 8px;
+  text-align: center;
+}
