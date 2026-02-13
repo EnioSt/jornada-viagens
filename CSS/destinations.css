@@ -61,3 +61,21 @@
     display: block;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .destinations {
+    width: 648px;
+  }
+
+  .section-title.destinations {
+    width: 100%;
+  }
+  .imagem.mobile,
+  .imagem.desktop {
+    display: none;
+  }
+
+  .imagem.tablet {
+    display: block;
+  }
+}
