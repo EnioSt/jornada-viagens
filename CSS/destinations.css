@@ -38,3 +38,8 @@
   border-radius: 8px;
   text-align: center;
 }
+
+.imagem.tablet,
+.imagem.desktop {
+  display: none;
+}
