@@ -1,0 +1,46 @@
+.term-payment {
+  display: flex;
+  flex-direction: column;
+  width: 312px;
+  margin: 0 auto;
+  margin-bottom: 88px;
+}
+
+.text-imgs-payments {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.texts-payment h3 {
+  font-size: 28px;
+  margin: 0 0 24px 0;
+}
+
+.texts-payment p {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.imgs-payments {
+  display: flex;
+  gap: 24px;
+}
+
+.img-payment {
+  width: 144px;
+  height: 244px;
+  background-color: blue;
+}
+
+.img-horinzont-payment {
+  width: 312px;
+  height: 182px;
+  background-color: teal;
+}
+
+@media screen and (min-width: 768px) {
+  .term-payment {
+    width: 648px;
+  }
+}
