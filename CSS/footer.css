@@ -18,6 +18,12 @@
   align-items: center;
 }
 
+.img-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .logo-footer {
   width: 162px;
   height: 40px;
@@ -51,4 +57,38 @@
   display: flex;
   gap: 8px;
   justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .informations-footer {
+    padding: 32px 60px;
+  }
+
+  .img-footer {
+    width: 100%;
+    background: url(../img/footer/tablet/Imagem\ pré\ rodapé.png) no-repeat;
+    background-size: cover;
+  }
+
+  .hourly-dev {
+    text-align: start;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .img-footer {
+    height: 600px;
+    background: url(../img/footer/desktop/Imagem\ pré\ rodapé.png) no-repeat;
+  }
+
+  .img-text {
+    align-items: start;
+  }
+
+  .informations-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 52px 120px;
+  }
 }
