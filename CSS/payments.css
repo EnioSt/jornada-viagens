@@ -59,6 +59,24 @@
   background-repeat: no-repeat;
 }
 
+/* PACOTES */
+.img-payment.um.pacotes {
+  background: url(../img/payments/mobile/japao1_mobile.png);
+  background-repeat: no-repeat;
+}
+
+.img-payment.dois.pacotes {
+  background: url(../img/payments/mobile/japao2_mobile.png);
+  background-repeat: no-repeat;
+}
+
+.img-horinzont-payment.pacotes {
+  width: 312px;
+  height: 182px;
+  background: url(../img/payments/mobile/japao3_mobile.png);
+  background-repeat: no-repeat;
+}
+
 @media screen and (min-width: 768px) {
   .term-payment {
     width: 648px;
@@ -83,6 +101,24 @@
     width: 648px;
     height: 182px;
     background: url(../img/payments/tablet/Montagem\ japão\ horizontal.png);
+    background-repeat: no-repeat;
+  }
+
+  /* PACOTES */
+  .img-payment.um.pacotes {
+    background: url(../img/payments/tablet/japao1.png);
+    background-repeat: no-repeat;
+  }
+
+  .img-payment.dois.pacotes {
+    background: url(../img/payments/tablet/japao2.png);
+    background-repeat: no-repeat;
+  }
+
+  .img-horinzont-payment.pacotes {
+    width: 648px;
+    height: 182px;
+    background: url(../img/payments/tablet/japao3.png);
     background-repeat: no-repeat;
   }
 }
@@ -159,6 +195,31 @@
     width: 791px;
     height: 182px;
     background: url(../img/payments/desktop/Montagem\ japão\ horizontal.png);
+    background-repeat: no-repeat;
+  }
+
+  /* PACOTES */
+  .text-imgs-payments.pacotes {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+  }
+
+  .img-payment.um.pacotes {
+    background: url(../img/payments/desktop/japao1.png);
+    background-repeat: no-repeat;
+  }
+
+  .img-payment.dois.pacotes {
+    background: url(../img/payments/desktop/japao2.png);
+    background-repeat: no-repeat;
+  }
+
+  .img-horinzont-payment.pacotes {
+    width: 791px;
+    height: 182px;
+    background: url(../img/payments/desktop/japao3.png);
     background-repeat: no-repeat;
   }
 }
