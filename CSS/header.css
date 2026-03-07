@@ -58,6 +58,10 @@ nav {
   margin: 16px 0;
 }
 
+.item a.active {
+  text-decoration: underline;
+}
+
 .item a {
   color: var(--text-secondary-color);
   text-decoration: none;

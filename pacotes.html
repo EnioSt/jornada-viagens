@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
@@ -13,15 +13,9 @@
       name="og:description"
       content="Jornada Viagens,uma agência apaixonada por criar viagens inesquecíveis"
     />
-    <meta
-      name="og:image"
-      content=""
-    />
+    <meta name="og:image" content="" />
     <meta name="og:type" content="website" />
-    <meta
-      name="og:url"
-      content=""
-    />
+    <meta name="og:url" content="" />
 
     <link rel="icon" href="favico.png" type="xml/svg" />
     <link rel="stylesheet" href="./css/style.css" />
@@ -44,32 +38,40 @@
             alt="logo com escrita"
           />
         </a>
-      <div class="navigation-menu">
-        <label for="menu">
-          <img src="img/menu.png" alt="menu" />
-        </label>
-        <input type="checkbox" id="menu" hidden />
-        <nav>
-          <ul class="list-links">
-            <li>
-              <a href="blog.html" target="_blank" title="Acessar Blog">Blog</a>
-            </li>
-            <li>
-              <a
-                class="active"
-                href="pacotes-de-viagens.html"
-                target="_blank"
-                title="Acessar Pacotes de viagem"
-                >Pacotes de viagem</a
-              >
-            </li>
-            <li>
-              <a href="contato.html" target="_blank" title="Acessar Contato"
-                >Contato</a
-              >
-            </li>
-          </ul>
-        </nav>
+
+        <div class="div-menu">
+          <label for="menu">
+            <img
+              class="menu-hamburger"
+              src="./img/header_footer/menu.png"
+              alt="menu hamburger"
+            />
+          </label>
+          <input type="checkbox" id="menu" hidden />
+          <nav>
+            <ul class="list-links">
+              <li class="item">
+                <a href="blog.html" target="_blank" title="acessar blog"
+                  >Blog</a
+                >
+              </li>
+              <li class="item">
+                <a
+                  class="active"
+                  href="pacotes.html"
+                  target="_blank"
+                  title="acessar pacotes"
+                  >Pacote de viagem</a
+                >
+              </li>
+              <li class="item">
+                <a href="contato.html" target="_blank" title="acessar contatos"
+                  >Contato</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
     <section class="travel-packages hero">
@@ -237,7 +239,7 @@
         </article>
       </div>
     </section>
-    
+
     <footer class="footer">
       <div class="img-footer"></div>
       <div class="informations-footer">
