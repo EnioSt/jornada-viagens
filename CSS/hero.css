@@ -49,6 +49,41 @@
   line-height: 32px;
 }
 
+/* CONTATO */
+.contato.hero {
+  margin-bottom: 88px;
+}
+.contato .hero-img {
+  height: 460px;
+  background: url(../img/contato/mobile/Banner.png) no-repeat;
+  background-size: cover;
+}
+/* .contato.bottom-hero .hero-img {
+  background: url(../img/pacotes/japan-bg-bottom-hero-mobile.png) no-repeat;
+  background-size: cover;
+} */
+.contato .hero-content {
+  padding: 65px 24px;
+}
+.contato .hero-content h1 {
+  font-size: 48px;
+  color: var(--text-secondary-color);
+  font-weight: var(--title-weight);
+}
+.contato .hero-content hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px 0 32px;
+}
+.contato .hero-content p {
+  font-size: 20px;
+  color: var(--text-secondary-color);
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+
 @media screen and (min-width: 768px) {
   .hero-img {
     height: 620px;
@@ -78,6 +113,26 @@
     background: url(../img/pacotes/japan-bg-bottom-hero-tablet.png) no-repeat;
     background-size: cover;
   }
+
+  /* CONTATO */
+  .contato .hero-content {
+    padding: 210px 70px 107px;
+  }
+
+  .contato .hero-content p {
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .contato .hero-img {
+    background: url(../img/contato/tablet/Banner.png) no-repeat;
+    background-size: cover;
+    height: 620px;
+  }
+  /* .contato.bottom-hero .hero-img {
+    height: 400px;
+    background: url(../img/pacotes/japan-bg-bottom-hero-tablet.png) no-repeat;
+    background-size: cover;
+  } */
 }
 
 @media screen and (min-width: 1024px) {
@@ -105,7 +160,32 @@
     background: url(../img/pacotes/japan-bg-bottom-hero-desktop.png) no-repeat;
     background-size: cover;
   }
+
+  /* CONTATO */
+  .contato .hero-content {
+    padding: 150px 120px 170px;
+    margin: 0 auto;
+  }
+  .contato .hero-content p {
+    width: 570px;
+  }
+  .contato .hero-img {
+    background: url(../img/contato/desktop/Banner.png) no-repeat;
+    background-size: cover;
+  }
+  /* .contato.bottom-hero .hero-img {
+    height: 600px;
+    background: url(../img/pacotes/japan-bg-bottom-hero-desktop.png) no-repeat;
+    background-size: cover;
+  } */
 }
+
+/* @media screen and (min-width: 1440px) {
+  .contato .hero-img {
+    background: url(../img/contato/desktop_large/Banner.png) no-repeat;
+    background-size: cover;
+  }
+} */
 
 @media screen and (min-width: 1920px) {
   .hero h2 {
