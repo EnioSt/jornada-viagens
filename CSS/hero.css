@@ -111,4 +111,8 @@
   .hero h2 {
     padding: 88px 160px;
   }
+
+  .travel-packages .hero-content p {
+    width: 580px;
+  }
 }
