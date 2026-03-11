@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favico.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>Jornada Viagens</title>
+  </head>
+  <body>
+    <header class="header-main">
+      <div class="div-header">
+        <a class="logo" href="index.html" title="voltar ao inicio"
+          ><img
+            class="logo-mobile"
+            src="./img/header_footer/Símbolo_white.png"
+            alt="simbolo de uma bussola branco
+              "
+          />
+          <img
+            class="logo-desktop"
+            src="./img/header_footer/Logo-branco.png"
+            alt="logo com escrita"
+          />
+        </a>
+
+        <div class="div-menu">
+          <label for="menu">
+            <img
+              class="menu-hamburger"
+              src="./img/header_footer/menu.png"
+              alt="menu hamburger"
+            />
+          </label>
+          <input type="checkbox" id="menu" hidden />
+          <nav>
+            <ul class="list-links">
+              <li class="item">
+                <a href="blog.html" target="_blank" title="acessar blog"
+                  >Blog</a
+                >
+              </li>
+              <li class="item">
+                <a href="pacotes.html" target="_blank" title="acessar pacotes"
+                  >Pacote de viagem</a
+                >
+              </li>
+              <li class="item">
+                <a href="contato.html" target="_blank" title="acessar contatos"
+                  >Contato</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="contato hero">
+      <div class="hero-img">
+        <div class="hero-content">
+          <h1>Entre em contato!</h1>
+          <hr />
+          <p>
+            Dúvidas, sugestões, problemas para resolver? Temos uma equipe de
+            plantão para ajudar você!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contato">
+      <div class="section-title contato">
+        <h2>Preencha o formulario:</h2>
+        <hr />
+      </div>
+      <div class="contato-main">
+        <p>
+          Temos uma equipe sempre em prontidão para resolver suas dúvidas,
+          problemas, trazer dicas e orientações objetivas para tornar sua
+          experiência o mais prazerosa e tranquila possível. Preencha seus dados
+          que vamos retornar seu contato conforme a urgência do seu chamado.
+          Pode confiar!
+        </p>
+
+        <form action="" method="post">
+          <div class="campo">
+            <input type="text" id="nome" name="nome" placeholder=" " required />
+            <label for="nome">Seu nome</label>
+          </div>
+
+          <div class="tel-email">
+            <div class="campo">
+              <input
+                type="tel"
+                id="telefone"
+                name="telefone"
+                pattern="[0-9]{10,11}"
+                placeholder=" "
+              />
+              <label for="telefone">Telefone</label>
+            </div>
+
+            <div class="campo">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder=" "
+                required
+              />
+              <label for="email">Email</label>
+            </div>
+          </div>
+
+          <div class="campo">
+            <input
+              type="text"
+              id="assunto"
+              name="assunto"
+              placeholder=" "
+              required
+            />
+            <label for="assunto">Assunto</label>
+          </div>
+
+          <div class="campo">
+            <textarea
+              id="mensagem"
+              name="mensagem"
+              rows="5"
+              required
+              placeholder=" "
+            ></textarea>
+            <label for="mensagem">Mensagem</label>
+          </div>
+
+          <a href="#" class="button destination">Enviar!</a>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="img-footer contato"></div>
+      <div class="informations-footer">
+        <div class="img-text">
+          <img
+            src="./img/footer/Logo-branco-com-tagline.png"
+            alt=""
+            class="logo-footer"
+          />
+          <div class="hourly-dev">
+            <p class="hourly">
+              Horário de atendimento: 08h - 20h (Segunda a Sábado)
+            </p>
+            <p class="dev">
+              Desenvolvido por Enio. Projeto fictício sem fins comerciais.
+            </p>
+          </div>
+        </div>
+        <div class="social-media">
+          <p class="redes">Acesse nossas redes:</p>
+          <div class="social-media-icons">
+            <img src="./img/footer/Whatsapp 1 (2).png" alt="" class="zap" />
+            <img src="./img/footer/Instragam 1 (2).png" alt="" class="insta" />
+            <img src="./img/footer/Twiter 1 (2).png" alt="" class="tw" />
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

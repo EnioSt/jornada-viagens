@@ -1,0 +1,130 @@
+.contato-main {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  width: 312px;
+  margin: 0 auto;
+  margin-bottom: 88px;
+}
+
+.section-title.contato {
+  width: 280px;
+  margin: 0 auto;
+}
+
+.contato-main p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 20px;
+}
+
+.contato-main form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.tel-email {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.campo {
+  position: relative;
+  margin-top: 24px;
+}
+
+.campo input,
+.campo textarea {
+  width: 100%;
+  padding: 12px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  font-size: 16px;
+  transition:
+    border-color 0.3s,
+    box-shadow 0.3s;
+}
+
+.campo input,
+.campo label {
+  display: block;
+}
+
+.button.destination {
+  display: block;
+  margin: 0 auto;
+  transition: background 0.3s;
+}
+
+/* Label sobre o campo */
+.campo label {
+  position: absolute;
+  top: 12px;
+  left: 8px;
+  font-size: 16px;
+  color: #777;
+  pointer-events: none;
+  transition: 0.3s ease all;
+}
+
+/* Quando o campo está focado ou já tem valor */
+.campo input:focus,
+.campo textarea:focus {
+  border-color: var(--secondary-color);
+  box-shadow: 0 0 0 2px rgba(255, 0, 0, 0.2);
+}
+
+.campo input:focus + label,
+.campo input:not(:placeholder-shown) + label,
+.campo textarea:focus + label,
+.campo textarea:valid + label {
+  top: -8px;
+  left: 6px;
+  font-size: 12px;
+  color: var(--secondary-color);
+  background: #fff;
+  padding: 0 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .contato-main {
+    width: 648px;
+  }
+
+  .contato-main form a {
+    align-items: center;
+  }
+
+  .section-title.contato {
+    width: 600px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .contato-main {
+    width: 80%;
+  }
+
+  .contato-main form a {
+    align-items: center;
+  }
+
+  .tel-email {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .tel-email .campo {
+    width: 50%;
+  }
+
+  .section-title.contato {
+    width: 600px;
+    margin: 0 auto;
+  }
+}
