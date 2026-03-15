@@ -56,3 +56,25 @@
   font-size: 14px;
   line-height: 28px;
 }
+
+@media screen and (min-width: 768px) {
+  .step.arrive {
+    flex-direction: row;
+  }
+
+  .step div {
+    width: 50%;
+  }
+
+  .img-tokyo {
+    width: 50%;
+    height: 360px;
+    background: url(../img/blog/tablet/Tokyo-1.png) no-repeat;
+    background-size: cover;
+  }
+
+  .hotel-tokyo {
+    background: url(../img/blog/tablet/Tokyo\ 2.png) no-repeat;
+    background-size: cover;
+  }
+}
