@@ -1,0 +1,17 @@
+.report {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-steps {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.step h3 {
+  margin: 0;
+}
