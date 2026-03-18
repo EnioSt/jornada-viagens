@@ -38,4 +38,52 @@
 }
 
 @media screen and (min-width: 768px) {
+  .section-title.post {
+    width: 600px;
+  }
+
+  .img-post.osaka {
+    background: url(../img/blog/tablet/posts/Osaka.png) no-repeat;
+    background-size: cover;
+  }
+
+  .img-post.hiroshima {
+    background: url(../img/blog/tablet/posts/Hiroshima.png) no-repeat;
+    background-size: cover;
+  }
+
+  .img-post.kyoto {
+    background: url(../img/blog/tablet/posts/Kyoto.png) no-repeat;
+    background-size: cover;
+  }
+
+  .button.destination {
+    width: 280px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section-title.post {
+    width: 100%;
+  }
+
+  .img-post.osaka {
+    background: url(../img/blog/desktop/posts/Osaka.png) no-repeat;
+    background-size: cover;
+  }
+
+  .img-post.hiroshima {
+    background: url(../img/blog/desktop/posts/Hiroshima.png) no-repeat;
+    background-size: cover;
+  }
+
+  .img-post.kyoto {
+    background: url(../img/blog/desktop/posts/Kyoto.png) no-repeat;
+    background-size: cover;
+  }
+
+  .cards-posts {
+    flex-direction: row;
+  }
 }
