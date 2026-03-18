@@ -23,6 +23,19 @@
 }
 
 .img-post.osaka {
-  background: url(../img/blog/mobile/Tokyo1.png) no-repeat;
+  background: url(../img/blog/mobile/posts/Osaka.png) no-repeat;
   background-size: cover;
+}
+
+.img-post.hiroshima {
+  background: url(../img/blog/mobile/posts/Hiroshima.png) no-repeat;
+  background-size: cover;
+}
+
+.img-post.kyoto {
+  background: url(../img/blog/mobile/posts/Kyoto.png) no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
 }
