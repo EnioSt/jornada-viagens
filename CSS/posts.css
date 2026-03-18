@@ -1,0 +1,28 @@
+.posts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 88px;
+}
+
+.cards-posts {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.section-title.post {
+  width: 280px;
+}
+
+.img-post {
+  width: 100%;
+  height: 300px;
+}
+
+.img-post.osaka {
+  background: url(../img/blog/mobile/Tokyo1.png) no-repeat;
+  background-size: cover;
+}

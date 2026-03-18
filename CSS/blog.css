@@ -78,3 +78,21 @@
     background-size: cover;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .step div {
+    width: 50%;
+  }
+
+  .img-tokyo {
+    width: 50%;
+    height: 360px;
+    background: url(../img/blog/desktop/Tokyo1.png) no-repeat;
+    background-size: cover;
+  }
+
+  .hotel-tokyo {
+    background: url(../img/blog/desktop/Tokyo2.png) no-repeat;
+    background-size: cover;
+  }
+}
