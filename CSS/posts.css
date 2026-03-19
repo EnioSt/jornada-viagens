@@ -1,0 +1,89 @@
+.posts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 88px;
+}
+
+.cards-posts {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.section-title.post {
+  width: 280px;
+}
+
+.img-post {
+  width: 100%;
+  height: 300px;
+}
+
+.img-post.osaka {
+  background: url(../img/blog/mobile/posts/Osaka.png) no-repeat;
+  background-size: cover;
+}
+
+.img-post.hiroshima {
+  background: url(../img/blog/mobile/posts/Hiroshima.png) no-repeat;
+  background-size: cover;
+}
+
+.img-post.kyoto {
+  background: url(../img/blog/mobile/posts/Kyoto.png) no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .section-title.post {
+    width: 600px;
+  }
+
+  .img-post.osaka {
+    background: url(../img/blog/tablet/posts/Osaka.png) no-repeat;
+    background-size: cover;
+  }
+
+  .img-post.hiroshima {
+    background: url(../img/blog/tablet/posts/Hiroshima.png) no-repeat;
+    background-size: cover;
+  }
+
+  .img-post.kyoto {
+    background: url(../img/blog/tablet/posts/Kyoto.png) no-repeat;
+    background-size: cover;
+  }
+
+  .button.destination {
+    width: 280px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section-title.post {
+    width: 100%;
+  }
+
+  .img-post.osaka {
+    background: url(../img/blog/desktop/posts/Osaka.png) no-repeat;
+    background-size: cover;
+  }
+
+  .img-post.hiroshima {
+    background: url(../img/blog/desktop/posts/Hiroshima.png) no-repeat;
+    background-size: cover;
+  }
+
+  .img-post.kyoto {
+    background: url(../img/blog/desktop/posts/Kyoto.png) no-repeat;
+    background-size: cover;
+  }
+
+  .cards-posts {
+    flex-direction: row;
+  }
+}
